@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main ()  {
+func main() {
 	a := 12.234
 	b := 3
 
