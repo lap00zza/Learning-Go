@@ -24,9 +24,16 @@ func main() {
 	// Variables declared in the function level can be declared
 	// and initialized using the shorthand `:=`.
 	name := "Jewel Mahanta"
-	//course := "Learning Go"
+	course := "Learning Go"
 	module := 4.4
+	// pointer value of module means memory address of module
+	// & => References a pointer value (to get memory address)
+	// * => Dereferences a pointer value (to get the value)
+	ptr := &module
+
 	fmt.Println("Name is set to: ", name, " and is of type: ", reflect.TypeOf(name))
+	fmt.Println("Course is set to: ", course, " and is of type: ", reflect.TypeOf(course))
 	fmt.Println("Module is set to: ", module, " and is of type: ", reflect.TypeOf(module))
+	fmt.Println("Memory address of *module* is: ", ptr, " and the value is: ", *ptr)
 
 }
