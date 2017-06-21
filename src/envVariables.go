@@ -7,8 +7,8 @@ import (
 
 func main()  {
 	//fmt.Println(os.Environ())
-
-	for _, env := range os.Environ() {
-		fmt.Println(env)
+	envVars := os.Environ()
+	for i := 0; i < len(envVars); i++ {
+		fmt.Println(envVars[i])
 	}
 }
