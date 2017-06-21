@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"reflect"
+	"os"
 )
 
 // These are variables declared at the package level.
@@ -23,7 +24,7 @@ func main() {
 
 	// Variables declared in the function level can be declared
 	// and initialized using the shorthand `:=`.
-	name := "Jewel Mahanta"
+	name := os.Getenv("USERNAME")
 	course := "Learning Go"
 	module := 4.4
 	// pointer value of module means memory address of module
