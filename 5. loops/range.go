@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
 	inProgress := []string{"Docker Deep Dive", "Docker Clustering", "Docker and Kubernetes"}
 	completed := []string{"Docker Deep Dive", "Go Fundamentals", "Puppet Fundamentals"}

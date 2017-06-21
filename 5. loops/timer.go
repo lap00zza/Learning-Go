@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main() {
 
 	for timer := 10; timer >= 0; timer-- {
 		if timer == 0 {
