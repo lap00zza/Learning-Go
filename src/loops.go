@@ -22,6 +22,7 @@ func main() {
 	}
 
 	// This loop uses RangeClause
+	// RangeClause = [ ExpressionList "=" | IdentifierList ":=" ] "range" Expression .
 	fmt.Println("\nRange")
 	nums := [4]int{1, 2, 3, 4}
 	for _, val := range nums {
