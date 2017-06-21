@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// This is how a for statement looks
 	// ForStmt = "for" [ Condition | ForClause | RangeClause ] Block .
 
