@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main()  {
+func main() {
 	//fmt.Println(os.Environ())
 	envVars := os.Environ()
 	for i := 0; i < len(envVars); i++ {

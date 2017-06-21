@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"reflect"
 	"os"
+	"reflect"
 )
 
 // These are variables declared at the package level.
