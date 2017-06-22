@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
 	mySlice := []int{1, 2, 3, 4, 5, 6}
 	fmt.Println(mySlice, "\n---")
@@ -34,7 +34,7 @@ func main()  {
 	printChars("Lightning", "McQueen")
 }
 
-func printChars(nameStr ...string)  {
+func printChars(nameStr ...string) {
 	for _, nameChar := range nameStr {
 		fmt.Println(nameChar)
 	}
