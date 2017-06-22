@@ -36,4 +36,11 @@ func main() {
 		"Newcastle":  0,
 	}
 	fmt.Println(leagueTitles, recentHead2Head)
+
+	testMap := map[string]int{"A": 1, "B": 2, "C": 3, "D": 4, "E": 5}
+	for key, val := range testMap {
+		// %v the value in a default format when printing
+		// structs, the plus flag (%+v) adds field names
+		fmt.Printf("\nKey: %v | Value: %v", key, val)
+	}
 }
