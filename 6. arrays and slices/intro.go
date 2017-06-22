@@ -21,6 +21,9 @@ func main() {
 	//myCourses := make([]string, 5, 10)
 
 	// This is a shorter way to do it
+	// This syntax, where we declare and initialize struct, array,
+	// slice, and maps is also know as composite literals.
+	// https://golang.org/ref/spec#Composite_literals
 	myCourses := []string{"Docker", "Puppet", "Python"}
 
 	fmt.Printf("Length: %d\nCapacity: %d\n", len(myCourses), cap(myCourses))

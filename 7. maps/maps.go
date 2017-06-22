@@ -28,6 +28,9 @@ func main() {
 	leagueTitles["Sunderland"] = 6
 	leagueTitles["Newcastle"] = 4
 
+	// This syntax, where we declare and initialize struct, array,
+	// slice, and maps is also know as composite literals.
+	// https://golang.org/ref/spec#Composite_literals
 	recentHead2Head := map[string]int{
 		"Sunderland": 5,
 		"Newcastle":  0,
