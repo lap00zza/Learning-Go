@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 
 	myArr := [4]int{1, 2, 3, 4}
 	mySlice := []int{1, 2, 3, 4}
@@ -25,14 +25,14 @@ func main()  {
 	fmt.Println("myMap: ", myMap)
 }
 
-func awesomeArr(arg [4]int)  {
+func awesomeArr(arg [4]int) {
 	arg[3] = 500
 }
 
-func awesomeSlice(arg []int)  {
+func awesomeSlice(arg []int) {
 	arg = append(arg, 5, 6, 7)
 }
 
-func awesomeMap(arg map[string]int)  {
+func awesomeMap(arg map[string]int) {
 	arg["Cool"] = 100
 }
