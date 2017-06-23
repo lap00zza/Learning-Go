@@ -43,4 +43,24 @@ func main() {
 		// structs, the plus flag (%+v) adds field names
 		fmt.Printf("\nKey: %v | Value: %v", key, val)
 	}
+
+	mySlice := map[string]int{
+		"A": 1,
+		"B": 2,
+		"C": 3,
+		"D": 4,
+		"E": 5,
+	}
+	fmt.Printf("\n\n%v | A: %v", mySlice, mySlice["A"])
+
+	// How this works is, if this key is already present
+	// its associated value gets updated. If the key does
+	// not exist, a new key gets created with the value.
+	mySlice["A"] = 100
+	mySlice["New Key"] = 200
+	fmt.Printf("\n%v", mySlice)
+
+	// To delete a key, we use the built-in function 'delete'
+	delete(mySlice, "New Key")
+	fmt.Printf("\n%v", mySlice)
 }
