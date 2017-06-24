@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"time"
 	"sync"
+	"time"
 )
 
 // When main exits, all our goroutines exit.
-func main()  {
+func main() {
 	// Go's concurrency model is the Actor Model; also
 	// known as Communicating Sequential Processes (CSP)
 
